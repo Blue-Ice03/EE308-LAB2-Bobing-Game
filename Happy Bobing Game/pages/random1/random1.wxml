@@ -1,0 +1,316 @@
+<view class="root">
+  <image class='background-image' src='/pages/Console_game/background.png'mode="aspectFill"></image>
+  
+  <view class="content"
+    style="width: 750rpx; height: 1464rpx; display: block; box-sizing: border-box; left: 0rpx; top: -37rpx; position: absolute">
+    <image
+      style="position: relative; left: 24rpx; top: 292rpx; width: 694rpx; height: 711rpx; display: inline-block; box-sizing: border-box"
+      src="/pages/Console_game/bowl.png" />
+    <view wx:if="{{a === 1}}">
+      <image
+        style="position: relative; left: 183rpx; top: -158rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="one.png" />
+    </view>
+    <view wx:if="{{a == 2}}">
+      <image
+        style="position: relative; left: 183rpx; top: -158rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="two.png" />
+    </view>
+    <view wx:if="{{a == 3}}">
+      <image
+        style="position: relative; left: 183rpx; top: -158rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="three.png" />
+    </view>
+    <view wx:if="{{a == 4}}">
+      <image
+        style="position: relative; left: 183rpx; top: -158rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="four.png" />
+    </view>
+    <view wx:if="{{a == 5}}">
+      <image
+        style="position: relative; left: 183rpx; top: -158rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="five.png" />
+    </view>
+    <view wx:if="{{a == 6}}">
+      <image
+        style="position: relative; left: 183rpx; top: -158rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="six.png" />
+    </view>
+  
+    <view wx:if="{{b == 1}}">
+      <image
+        style="position: relative; left: 323rpx; top: -260rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="one.png" />
+    </view>
+    <view wx:if="{{b == 2}}">
+      <image
+        style="position: relative; left: 323rpx; top: -260rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="two.png" />
+    </view>
+    <view wx:if="{{b == 3}}">
+      <image
+        style="position: relative; left: 323rpx; top: -260rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="three.png" />
+    </view>
+    <view wx:if="{{b == 4}}">
+      <image
+        style="position: relative; left: 323rpx; top: -260rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="four.png" />
+    </view>
+    <view wx:if="{{b == 5}}">
+      <image
+        style="position: relative; left: 323rpx; top: -260rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="five.png" />
+    </view>
+    <view wx:if="{{b == 6}}">
+      <image
+        style="position: relative; left: 323rpx; top: -260rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="six.png" />
+  
+  
+    </view>
+    <button class="butt" size="mini" type="primary" bindtap="reload"
+      style="position: fixed; left: 256rpx; top: 898rpx; width: 231rpx; height: 69rpx; display: block; box-sizing: border-box">
+      Roll again </button>
+    <button class="butt1" size="mini" type="default">一秀{{yixiu}}</button>
+    <button class="butt2" size="mini" type="default">二举{{erju}}</button>
+    <button class="butt3" size="mini" type="default">三红{{sanhong}}</button>
+    <button class="butt4" size="mini" type="default">四进{{sijin}}</button>
+    <button class="butt5" size="mini" type="default">对堂{{duitang}}</button>
+    <button class="butt6" size="mini" type="default">状元{{zhuangyuan}}</button>
+  
+  
+  
+    <block wx:if="{{Gamernum == 1}}">
+      <button class="buttgamer" size="mini" type="default" bindtap="eject1">轮到玩家{{Gamernum}}</button>
+    </block>
+    <block wx:if="{{Gamernum == 2}}">
+      <button class="buttgamer2" size="mini" type="default" bindtap="eject1">轮到玩家{{Gamernum}}</button>
+    </block>
+    <block wx:if="{{Gamernum == 3}}">
+      <button class="buttgamer3" size="mini" type="default" bindtap="eject1">轮到玩家{{Gamernum}}</button>
+    </block>
+    <block wx:if="{{Gamernum == 4}}">
+      <button class="buttgamer4" size="mini" type="default" bindtap="eject1">轮到玩家{{Gamernum}}</button>
+    </block>
+    <block wx:if="{{Gamernum == 5}}">
+      <button class="buttgamer5" size="mini" type="default" bindtap="eject1">轮到玩家{{Gamernum}}</button>
+    </block>
+    <block wx:if="{{Gamernum == 6}}">
+      <button class="buttgamer6" size="mini" type="default" bindtap="eject1">轮到玩家{{Gamernum}}</button>
+    </block>
+  
+  
+    <view wx:if="{{c == 1}}">
+      <image
+        style="position: relative; left: 468rpx; top: -352rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="one.png" />
+  
+    </view>
+    <view wx:if="{{c == 2}}">
+      <image
+        style="position: relative; left: 468rpx; top: -352rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="two.png" />
+    </view>
+    <view wx:if="{{c == 3}}">
+      <image
+        style="position: relative; left: 468rpx; top: -352rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="three.png" />
+    </view>
+    <view wx:if="{{c == 4}}">
+      <image
+        style="position: relative; left: 468rpx; top: -352rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="four.png" />
+    </view>
+    <view wx:if="{{c == 5}}">
+      <image
+        style="position: relative; left: 468rpx; top: -352rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="five.png" />
+    </view>
+    <view wx:if="{{c == 6}}">
+      <image
+        style="position: relative; left: 468rpx; top: -352rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="six.png" />
+    </view>
+  
+  
+    <view wx:if="{{d == 1}}">
+      <image
+        style="position: relative; left: 182rpx; top: -319rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="one.png" />
+    </view>
+    <view wx:if="{{d == 2}}">
+      <image
+        style="position: relative; left: 182rpx; top: -319rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="two.png" />
+    </view>
+    <view wx:if="{{d == 3}}">
+      <image
+        style="position: relative; left: 182rpx; top: -319rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="three.png" />
+    </view>
+    <view wx:if="{{d == 4}}">
+      <image
+        style="position: relative; left: 182rpx; top: -319rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="four.png" />
+    </view>
+    <view wx:if="{{d == 5}}">
+      <image
+        style="position: relative; left: 182rpx; top: -319rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="five.png" />
+    </view>
+    <view wx:if="{{d == 6}}">
+      <image
+        style="position: relative; left: 182rpx; top: -319rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="six.png" />
+    </view>
+  
+  
+  
+  
+    <view wx:if="{{e == 1}}">
+      <image
+        style="position: relative; left: 323rpx; top: -415rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="one.png" />
+    </view>
+    <view wx:if="{{e == 2}}">
+      <image
+        style="position: relative; left: 323rpx; top: -415rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="two.png" />
+    </view>
+    <view wx:if="{{e == 3}}">
+      <image
+        style="position: relative; left: 323rpx; top: -415rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="three.png" />
+  
+  
+    </view>
+    <view wx:if="{{e == 4}}">
+      <image
+        style="position: relative; left: 323rpx; top: -415rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="four.png" />
+    </view>
+    <view wx:if="{{e == 5}}">
+      <image
+        style="position: relative; left: 323rpx; top: -415rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="five.png" />
+    </view>
+    <view wx:if="{{e == 6}}">
+      <image
+        style="position: relative; left: 323rpx; top: -415rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="six.png" />
+    </view>
+  
+  
+  
+    <view wx:if="{{f == 1}}">
+      <image
+        style="position: relative; left: 470rpx; top: -513rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="one.png" />
+    </view>
+    <view wx:if="{{f == 2}}">
+      <image
+        style="position: relative; left: 470rpx; top: -513rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="two.png" />
+    </view>
+    <view wx:if="{{f == 3}}">
+      <image
+        style="position: relative; left: 470rpx; top: -513rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="three.png" />
+    </view>
+    <view wx:if="{{f == 4}}">
+      <image
+        style="position: relative; left: 470rpx; top: -513rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="four.png" />
+    </view>
+    <view wx:if="{{f == 5}}">
+      <image
+        style="position: relative; left: 470rpx; top: -513rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="five.png" />
+    </view>
+    <view wx:if="{{f == 6}}">
+      <image
+        style="position: relative; left: 470rpx; top: -513rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
+        src="six.png" />
+    </view>
+  
+    <view
+      wx:if="{{four == 1 && one < 4 && two < 4 && three < 4 && five < 4 && six < 4}}">
+      <view wx:if="{{one == 1 && two== 1 && three == 1 && four == 1 && five == 1 && six == 1}}">
+      <text class='text' style="position: relative; left: 222rpx; top: -1113rpx">对堂</text>
+      </view>
+      <view wx:if="{{one !== 1 || two!== 1 || three !== 1 || four !== 1 || five !== 1 || six !== 1}}">
+        <text class='text' style="position: relative; left: 222rpx; top: -1113rpx">一秀</text>
+    </view>
+    </view>
+    <view wx:if="{{four == 2 && one < 4 && two < 4 && three < 4 && five < 4 && six < 4}}">
+      <text class='text' style="position: relative; left: 222rpx; top: -1113rpx">二举</text>
+    </view>
+    <view wx:if="{{four == 3}}">
+      <text class='text' style="position: relative; left: 222rpx; top: -1113rpx">三红</text>
+    </view>
+    <view wx:if="{{two == 4|| three == 4 || one == 4|| five == 4 || six==4}}">
+      <text class='text' style="position: relative; left: 222rpx; top: -1113rpx">四进</text>
+    </view>
+    
+    <view wx:if="{{four == 4}}">
+      <text class='text' style="position: relative; left: 11rpx; top: -1104rpx">状元 - 四点红</text>
+    </view>
+    <view wx:if="{{five == 5 || three == 5|| two == 5|| one== 5|| six == 5}}">
+      <text class='text' style="position: relative; left: 11rpx; top: -1104rpx">状元 - 五子登科</text>
+    </view>
+  
+    <view wx:if="{{four == 5}}">
+      <text class='text' style="position: relative; left: 11rpx; top: -1104rpx">状元 - 五红</text>
+    </view>
+    <view wx:if="{{six == 6 || five == 6 ||three ==6 || two == 6}}">
+      <text class='text' style="position: relative; left: 11rpx; top: -1104rpx">状元 - 六杯黑</text>
+    </view>
+    <view wx:if="{{one == 6}}">
+      <text class='text' style="position: relative; left: 11rpx; top: -1104rpx">状元 - 遍地锦</text>
+    </view>
+    <view wx:if="{{four == 6}}">
+      <text class='text' style="position: relative; left: 11rpx; top: -1104rpx">状元 - 六杯红</text>
+    </view>
+    <view wx:if="{{four == 4 && one == 2}}">
+      <text class='text' style="position: relative; left: 11rpx; top: -1104rpx">状元 - 金花</text>
+    </view>
+    <view wx:if="{{four == 0 && one < 4 && two < 4 && four < 4 && five < 4 && six < 4 && three < 4}}">
+      <text class='text' style="position: relative; left: 111rpx; top: -1104rpx">谢谢参与</text>
+    </view>
+  
+    <text style="position: absolute; left: 153rpx; top: 1327rpx">当每个饼子都有归宿，游戏结束</text>
+  
+    
+    
+
+    
+  </view>
+  <button style="position: relative; left: -1rpx; top: 1578rpx" bindtap="to_index" plain="{{ true }}">Back Home</button>
+</view>
+<block wx:if="{{recode == false}}">
+  <view class="mask" catchtap="Go_Back">
+        <view class= "eject" >
+
+        </view>   
+      </view>
+  <view class="output1">
+          <text >玩家1:状元{{score1[5]}}个 对堂{{score1[4]}}个 三红{{score1[3]}}个 四进{{score1[2]}}个 二举{{score1[1]}}个 一秀{{score1[0]}}</text>
+  </view>
+  <view class="output2">
+          <text >玩家2:状元{{score2[5]}}个 对堂{{score2[4]}}个 三红{{score2[3]}}个 四进{{score2[2]}}个 二举{{score2[1]}}个 一秀{{score2[0]}}</text>
+  </view>
+  <view class="output3">
+          <text >玩家3:状元{{score3[5]}}个 对堂{{score3[4]}}个 三红{{score3[3]}}个 四进{{score3[2]}}个 二举{{score3[1]}}个 一秀{{score3[0]}}</text>
+  </view>
+  <view class="output4">
+          <text >玩家4:状元{{score4[5]}}个 对堂{{score4[4]}}个 三红{{score4[3]}}个 四进{{score4[2]}}个 二举{{score4[1]}}个 一秀{{score4[0]}}</text>
+  </view>
+  <view class="output5">
+          <text >玩家5:状元{{score5[5]}}个 对堂{{score5[4]}}个 三红{{score5[3]}}个 四进{{score5[2]}}个 二举{{score5[1]}}个 一秀{{score5[0]}}</text>
+  </view>
+  <view class="output6">
+          <text >玩家6:状元{{score6[5]}}个 对堂{{score6[4]}}个 三红{{score6[3]}}个 四进{{score6[2]}}个 二举{{score6[1]}}个 一秀{{score6[0]}}</text>
+  </view>
+ 
+</block>

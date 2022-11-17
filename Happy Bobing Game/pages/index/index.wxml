@@ -1,0 +1,78 @@
+<view class="root">
+  
+  <image class='background-image' src='/pages/Console_game/background.png' mode="aspectFill"></image>
+  <view class="content"
+    style="width: 750rpx; height: 1110rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx; position: absolute">
+  
+  
+    
+  
+  
+  
+    <image
+      style="position: relative; left: 185rpx; top: 298rpx; width: 378rpx; height: 276rpx; display: inline-block; box-sizing: border-box"
+      src="/images/tabs/button3.png" />
+
+  
+  
+  
+    <button style="position: relative; left: -2rpx; top: 52rpx; display: block; box-sizing: border-box; width: 272rpx; height: 200rpx" bindtap="to_home_name" plain="{{ true }}">-                   Multiplayer mode
+ 
+    </button>
+    
+    <image
+      style="position: relative; left: 127rpx; top: -378rpx; width: 496rpx; height: 156rpx; display: inline-block; box-sizing: border-box"
+      src="title.png" />
+      
+    <image
+      style="position: relative; left: 186rpx; top: -12rpx; width: 378rpx; height: 276rpx; display: inline-block; box-sizing: border-box"
+      src="/images/tabs/button3.png" />
+  
+  
+    <button
+      style="position: relative; left: 2rpx; top: -260rpx; width: 276rpx; height: 205rpx; display: block; box-sizing: border-box"
+      bindtap="to_StandAloneGame" plain="{{ true }}">-                   Standalone mode</button>
+  
+  
+  
+
+  
+    
+  
+  
+  
+    
+    </view>
+    <block wx:if="{{muti == 1}}">
+      <view class="mask">
+        <view class= "eject" >
+
+
+          <view class= "Input1">
+            <input  type="text" placeholder="Player_number（<=6）" placeholder-style="color:#FF0000" bindinput= 'Input_1'></input>
+          </view>
+
+          <view class= "Input2">
+            <input  type="text" placeholder="Room_password"
+            placeholder-style="color:#FF0000" bindinput= 'Input_2'></input>
+          </view>
+
+          <view class= "Input3">
+            <input  type="text" placeholder="Room_account"
+            placeholder-style="color:#FF0000" bindinput= 'Input_3' ></input>
+          </view>
+
+          <button class="goback" bindtap="Go_Back" size="mini" type="default">Cancel</button>
+
+          <button class="create" bindtap="to_Multiplayer_game" size="mini" type="primary">Creat</button>
+          
+        </view>
+      </view>
+      
+    </block>
+  
+
+
+</view>
+
+

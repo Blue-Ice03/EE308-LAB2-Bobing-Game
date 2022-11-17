@@ -1,0 +1,61 @@
+<view class="root">
+  <image class='background-image' src='background.png' mode="aspectFill" style="width: 750rpx; height: 1682rpx; display: block; box-sizing: border-box; left: 1rpx; top: 0rpx; position: absolute"></image>
+  <view class="content"
+    style="position: relative; width: 750rpx; height: 1464rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx">
+  
+    <image
+      style="position: relative; left: 145rpx; top: 208rpx; width: 460rpx; height: 184rpx; display: inline-block; box-sizing: border-box"
+      src="title.png" />
+  
+    <image
+      style="position: relative; left: 82rpx; top: 200rpx; width: 580rpx; height: 600rpx; display: inline-block; box-sizing: content-box"
+      src="bowl.png" />
+  
+
+  
+    <image
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: -357rpx; top: -122rpx"
+      src="action.gif" />
+  
+    <image src="action.gif"
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: -323rpx; top: -122rpx" />
+  
+    <image
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: 444rpx; top: -200rpx"
+      src="action.gif" />
+  
+    <image
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: 147rpx; top: -100rpx"
+      src="action.gif" />
+  
+    <image
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: 182rpx; top: -100rpx"
+      src="action.gif" />
+  
+    <image
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: 216rpx; top: -100rpx"
+      src="action.gif" />
+  
+
+    <image 
+    style="position: relative; left: 144rpx; top: 115rpx; width: 484rpx; height: 130rpx; display: inline-block; box-sizing: border-box" src="/images/tabs/button.png" mode="scaleToFill"></image>
+
+
+    <button style="position: relative; left: 11rpx; top: -9rpx; width: 460rpx; height: 100rpx; display: block; box-sizing: border-box" bindtap="to_random" plain="{{ true }}">Please roll the dice</button>
+
+
+      
+ 
+  
+    <image style="position: relative; left: 104rpx; top: 104rpx; width: 580rpx; height: 185rpx; display: inline-block; box-sizing: border-box"
+      src="chance.png" />
+  </view>
+<image src="action.gif" 
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: -323rpx; top: -173rpx"
+      />
+
+<image src="action.gif" 
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: -323rpx; top: -173rpx"
+      />
+
+</view>

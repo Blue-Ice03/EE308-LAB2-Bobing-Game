@@ -1,0 +1,99 @@
+<view class="root">
+  <image class='background-image' src='/pages/Console_game/background.png' mode="aspectFill"></image>
+  <view class="content" style="position: relative; left: 0rpx; top: 0rpx">
+  
+    <image 
+    style="position: relative; left: 29rpx; top: 1313rpx; width: 218rpx; height: 66rpx; display: inline-block; box-sizing: border-box" src="/images/tabs/button2.png" mode="scaleToFill"></image>
+<image 
+    style="position: relative; left: 198rpx; top: 1318rpx; width: 270rpx; height: 68rpx; display: inline-block; box-sizing: border-box" src="/images/tabs/button2.png" mode="scaleToFill"></image>
+ 
+
+
+    <button
+      style="position: relative; left: 183rpx; top: 1234rpx; width: 296rpx; height: 66rpx; display: block; box-sizing: border-box"
+      bindtap="to_index" plain="{{ true }}">Back Home</button>
+  
+    <image
+      style="position: relative; left: 131rpx; top: 78rpx; width: 496rpx; height: 156rpx; display: inline-block; box-sizing: border-box"
+      src="title.png" />
+  
+    <image
+      style="position: relative; left: 86rpx; top: 205rpx; width: 580rpx; height: 600rpx; display: inline-block; box-sizing: border-box"
+      src="/pages/Console_game/bowl.png" />
+  
+
+  
+  
+    <image
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: -357rpx; top: -122rpx"
+      src="/pages/Console_game/action.gif" />
+  
+    <image src="/pages/Console_game/action.gif"
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: -323rpx; top: -122rpx" />
+  
+    <image
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: 444rpx; top: -200rpx"
+      src="/pages/Console_game/action.gif" />
+  
+    <image
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: 147rpx; top: -100rpx"
+      src="/pages/Console_game/action.gif" />
+  
+    <image
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: 182rpx; top: -100rpx"
+      src="/pages/Console_game/action.gif" />
+  
+    <image
+      style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: 216rpx; top: -100rpx"
+      src="/pages/Console_game/action.gif" />
+  
+  
+  
+  
+  
+  
+  
+    <button
+      style="position: relative; left: -239rpx; top: 308rpx; width: 292rpx; height: 76rpx; display: block; box-sizing: border-box"
+      bindtap="to_chat" plain="{{ true }}">To_chat</button>
+  
+  
+    <text style="position: relative; left: 148rpx; top: -666rpx">Number of participants：{{People}}</text>
+    
+    <image 
+    style="position: relative; left: 142rpx; top: -3rpx; width: 472rpx; height: 103rpx; display: inline-block; box-sizing: border-box" src="/images/tabs/button.png" mode="scaleToFill"></image> 
+    
+    <button style="position: relative; left: 2rpx; top: -100rpx; width: 444rpx; height: 76rpx; display: block; box-sizing: border-box" bindtap="naming" plain="{{ true }}">Please roll the dice</button>
+    </view>
+  <block wx:if="{{muti == 1}}">
+    <view class="mask">
+      <view class="eject">
+
+        <view class="Input1">
+          <input type="text"></input>
+        </view>
+
+        <button class="goback2" bindtap="Go_Back" size="mini" type="primary">Sent
+        </button>
+
+        <button class="create2" bindtap="Go_Back" size="mini" type="default">Return
+        </button>
+      </view>
+    </view>
+  </block>
+
+  <block wx:if="{{muti1 == 1}}">
+    <view class="mask" >
+      <view class="eject">
+        <view class= "Input3" >
+            <input  type="text" placeholder="Please enter names" placeholder-style="color:#FFFFFF" bindinput= 'Input_name' ></input>
+          </view>
+
+        <button class="goback" bindtap="Adding_gamer" size="mini" type="primary">Add This Player{{}}</button>
+
+        <button class="create" bindtap="Go_Back" size="mini" type="default">Rename & Remain: {{gamer}}
+        </button>
+      </view>
+    </view>
+  </block>
+</view>

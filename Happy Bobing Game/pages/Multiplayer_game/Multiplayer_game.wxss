@@ -1,0 +1,111 @@
+/* Multiplayer_game/Multiplayer_game.wxss */
+page{
+  height:100%;
+}
+.root {
+  width: 100%;
+   height: 100%;
+   background-color: #70c7da;
+   position: relative;
+}
+
+.background-image{
+  height : 120%;
+   position: absolute;
+   width: 100%;
+   left: 0px;
+   top: 0px;
+}
+.content{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   left: 0px;
+   top: 0px;
+}
+.mask{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-color:rgba(0, 0, 0, .2);
+  z-index: 2;
+}
+.eject{
+  display: flex;
+  position: fixed;
+  width: 80%;
+  height: 25%;
+  left: 10%;
+  top: 25%;
+  background-color:rgba(255, 255, 255, 0.986);
+  justify-content:center;
+  align-items: center;
+  z-index: 3;
+  margin: 1%;
+  border-radius: 3%;
+}
+.goback{
+  position: fixed; 
+  left: 31%  ;
+  top : 35%; 
+  width: 100%; 
+  height: 70rpx; 
+  display: flex; 
+  box-sizing: border-box
+}
+.goback2{
+  position: fixed; 
+  left: 55%  ;
+  top : 44%; 
+  width: 100%; 
+  height: 70rpx; 
+  display: flex; 
+  box-sizing: border-box
+}
+.create{
+  position: fixed; 
+  left: 26%  ;
+  top : 44%; 
+  width: 100%; 
+  height: 70rpx; 
+  display: flex; 
+  box-sizing: border-box
+}
+.create2{
+  position: fixed; 
+  left: 26%  ;
+  top : 44%; 
+  width: 100%; 
+  height: 70rpx; 
+  display: flex; 
+  box-sizing: border-box
+}
+.Input1{
+  display: flex;
+  position: fixed;
+  width: 60%;
+  height: 18%;
+  left: 20%;
+  top: 26%;
+  background-color:rgba(165, 161, 161, 0.397);
+  justify-content:center;
+  align-items: center;
+  z-index: 3;
+  border-radius: 4% ;
+}
+.Input3{
+  display: flex;
+  position: fixed;
+  width: 60%;
+  height: 6%;
+  left: 20%;
+  top: 27%;
+  background-color:rgba(165, 161, 161, 0.397);
+  justify-content:center;
+  align-items: center;
+  z-index: 3;
+  border-radius: 4% ;
+}
+button[plain]{ border:0 }

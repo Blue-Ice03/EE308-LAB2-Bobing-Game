@@ -1,0 +1,7 @@
+<view class="root">
+
+<image class='background' src = 'background.jpg' mode = 'scaleToFill'></image>
+
+<image class = 'card_one' src = 'CardOne.jpg' mode = 'scaleToFill'></image>
+<image class = 'card_two' src = 'CardTwo.jpg' mode = 'scaleToFill'></image>
+</view>

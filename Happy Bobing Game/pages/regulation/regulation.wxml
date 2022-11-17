@@ -1,0 +1,20 @@
+<view class="root">
+  <image class='background-image' src='/pages/Console_game/background.png' mode="aspectFill"></image>
+  <view class="content" style="position:relative;">
+  
+  
+    <image
+      style="position: relative; left: 35rpx; top: 226rpx; width: 682rpx; height: 972rpx; display: inline-block; box-sizing: border-box"
+      src="/images/tabs/regulation.jpeg" />
+  
+    <image
+      style="position: relative; left: 228rpx; top: -920rpx; width: 299rpx; height: 131rpx; display: inline-block; box-sizing: border-box"
+      src="title.png" />
+
+    <image 
+    style="position: relative; left: -117rpx; top: 211rpx; width: 388rpx; height: 104rpx; display: inline-block; box-sizing: border-box" src="/images/tabs/button2.png" mode="scaleToFill"></image>
+
+
+    <button style="position: relative; left: 2rpx; top: 118rpx; width: 320rpx; height: 70rpx; display: block; box-sizing: border-box" bindtap="to_index" plain="{{ true }}">Back Home</button>
+  </view>
+</view>

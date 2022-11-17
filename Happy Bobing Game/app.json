@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/contact/contact",
+    "pages/Console_game/Console_game",
+    "pages/regulation/regulation",
+    "pages/random/random",
+    "pages/random1/random1",
+    "pages/Multiplayer_game/Multiplayer_game"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "Enjoy Bobing",
+    "navigationBarTextStyle":"black"
+
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "home",
+      "iconPath": "/images/tabs/WhiteHouse.png",
+      "selectedIconPath": "/images/tabs/Colorhouse.png"
+    },{
+      "pagePath": "pages/regulation/regulation",
+      "text": "rule",
+      "iconPath": "/images/tabs/WhiteRule.png",
+      "selectedIconPath": "/images/tabs/ColorRule.png"
+    },{
+      "pagePath": "pages/contact/contact",
+      "text": "contact",
+      "iconPath": "/images/tabs/WhitePhone.png",
+      "selectedIconPath": "/images/tabs/ColorPhone.png"
+    }]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
