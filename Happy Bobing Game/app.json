@@ -7,7 +7,7 @@
     "pages/random/random",
     "pages/random1/random1",
     "pages/Multiplayer_game/Multiplayer_game"
-
+  
   ],
   "window":{
     "backgroundTextStyle":"dark",
