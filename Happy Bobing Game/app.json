@@ -9,11 +9,12 @@
     "pages/Multiplayer_game/Multiplayer_game"
    
   ],
+  
   "window":{
-    "backgroundTextStyle":"dark",
-    "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTitleText": "Enjoy Bobing",
-    "navigationBarTextStyle":"black"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor":  "#ffffff",
+    "navigationBarTitleText" : "Enjoy Bobing",
+    "navigationBarTextStyle": "black"
 
   },
   "tabBar": {
