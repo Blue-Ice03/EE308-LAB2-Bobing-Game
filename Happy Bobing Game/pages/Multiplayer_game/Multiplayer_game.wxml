@@ -7,7 +7,7 @@
 <image 
     style="position: relative; left: 198rpx; top: 1318rpx; width: 270rpx; height: 68rpx; display: inline-block; box-sizing: border-box" src="/images/tabs/button2.png" mode="scaleToFill"></image>
  
-
+ 
 
     <button
       style="position: relative; left: 183rpx; top: 1234rpx; width: 296rpx; height: 66rpx; display: block; box-sizing: border-box"
