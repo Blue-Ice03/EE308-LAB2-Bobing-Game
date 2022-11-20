@@ -12,7 +12,7 @@
       src="bowl.png" />
   
 
-  
+   
     <image
       style="position: relative; width: 77rpx; height: 77rpx; display: inline-block; box-sizing: border-box; left: -357rpx; top: -122rpx"
       src="action.gif" />
