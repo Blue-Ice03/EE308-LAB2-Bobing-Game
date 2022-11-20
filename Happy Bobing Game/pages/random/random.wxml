@@ -6,7 +6,7 @@
     <image style="position: relative; left: 29rpx; top: 350rpx; width: 694rpx; height: 711rpx; display: inline-block; box-sizing: border-box"
         src="/pages/Console_game/bowl.png" />
         <view wx:if="{{a === 1}}">
-      <image
+      <image 
       style="position: relative; left: 183rpx; top: -158rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
       src="one.png" />
     </view>
