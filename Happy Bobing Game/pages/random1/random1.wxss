@@ -9,7 +9,7 @@ page{
    position: relative;
 }
 .background-image{
-  height : 140%;
+  height : 140%; 
    position: absolute;
    width: 100%;
    left: 0px;
