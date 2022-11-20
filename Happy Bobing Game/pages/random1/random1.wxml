@@ -16,7 +16,7 @@
         style="position: relative; left: 183rpx; top: -158rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
         src="two.png" />
     </view>
-    <view wx:if="{{a == 3}}">
+    <view wx:if="{{ a == 3}}">
       <image
         style="position: relative; left: 183rpx; top: -158rpx; width: 89rpx; height: 89rpx; display: inline-block; box-sizing: border-box"
         src="three.png" />
